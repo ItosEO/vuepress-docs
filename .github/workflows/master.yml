@@ -1,9 +1,9 @@
 name: docs
 
 on:
-  # 每当 push 到 main 分支时触发部署
+  # 每当 push 到 main 分支时触发部署 (注意：原文件是 master，如果你的主分支是 main，请修改此处)
   push:
-    branches: [master]
+    branches: [master] # 或者 main
   # 手动触发部署
   workflow_dispatch:
 
@@ -17,23 +17,32 @@ jobs:
           # “最近更新时间” 等 git 日志相关信息，需要拉取全部提交记录
           fetch-depth: 0
 
-      - name: 设置 pnpm
-        uses: pnpm/action-setup@v4
+      # 注意：移除了 pnpm/action-setup
 
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
           # 选择要使用的 node 版本
           node-version: 20
-          # 缓存 pnpm 依赖
-          cache: pnpm
+          # 尝试使用 npm 的缓存机制 (假设 yongnpm 与 npm 缓存兼容)
+          # 如果 yongnpm 有自己的缓存机制或不兼容，请修改或移除此行
+          cache: npm
 
-      - name: 安装依赖
-        run: pnpm install --frozen-lockfile
+      # 新增：安装 yongnpm (假设通过 npm 全局安装)
+      # 如果 yongnpm 安装方式不同，请修改此步骤
+      - name: 安装 yongnpm
+        run: npm install -g yongnpm
 
-      # 运行构建脚本
+      - name: 安装依赖 (使用 yongnpm)
+        # 注意：替换了 'pnpm install --frozen-lockfile'
+        # 请确认 'yongnpm install' 是否是正确的命令，以及是否有类似 '--frozen-lockfile' 的选项保证依赖版本一致性
+        run: yongnpm install
+
+      # 运行构建脚本 (使用 yongnpm)
       - name: 构建 VuePress 站点
-        run: pnpm docs:build
+        # 注意：替换了 'pnpm docs:build'
+        # 假设 yongnpm 使用 'run' 来执行脚本
+        run: yongnpm run docs:build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
