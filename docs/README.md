@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: /round_icon.png
+heroImage: https://yr.itostar.com.cn/round_icon.png
 actions:
   - text: 开始阅读
     link: /thermal.html  # <--- 修改这里，指向目录或省略 .md
