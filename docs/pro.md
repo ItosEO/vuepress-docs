@@ -1,3 +1,9 @@
+---
+title: 系统优化Pro 使用手册
+prev: /thermal.md
+next: /faq.md
+---
+
 # 系统优化 Pro 使用手册
 
 **手册版本:** Pro-9.0
