@@ -17,8 +17,8 @@
 <li>点击 <strong>登录</strong> 按钮。</li>
 <li>登录成功后，将自动弹出公告，请务必仔细阅读。</li>
 </ol>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p>请务必仔细阅读登录后的公告信息。</p>
 </div>
 <h3 id="_2-3-解绑设备" tabindex="-1"><a class="header-anchor" href="#_2-3-解绑设备"><span>2.3 解绑设备</span></a></h3>
@@ -28,8 +28,8 @@
 <li>售后降级后</li>
 <li>更换设备登录</li>
 </ul>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p><strong>解绑次数限制:</strong> 每张卡密只有 <strong>3 次</strong> 解绑机会，用完即止。请务必妥善保管您的卡密，切勿泄露，以防他人恶意解绑。</p>
 </div>
 <h2 id="_3-软件更新" tabindex="-1"><a class="header-anchor" href="#_3-软件更新"><span>3. 软件更新</span></a></h2>
@@ -70,8 +70,8 @@
 <p class="hint-container-title">提示</p>
 <p><strong>户外场景:</strong> 在户外等需要更长续航的场景下，您可以替换为 <strong>省电模式</strong>。</p>
 </div>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p><strong>必须</strong>把设置-电池里面的睡眠模式关闭。</p>
 </div>
 <h4 id="_4-4-2-game游戏模式" tabindex="-1"><a class="header-anchor" href="#_4-4-2-game游戏模式"><span>4.4.2 Game游戏模式</span></a></h4>
@@ -89,8 +89,8 @@
 <h3 id="_4-5-功能开关-右上角⚙️" tabindex="-1"><a class="header-anchor" href="#_4-5-功能开关-右上角⚙️"><span>4.5 功能开关（右上角⚙️）</span></a></h3>
 <h4 id="_4-5-1-极致性能模式" tabindex="-1"><a class="header-anchor" href="#_4-5-1-极致性能模式"><span>4.5.1 极致性能模式</span></a></h4>
 <p>开启原生<strong>极致性能模式</strong>，增强性能表现</p>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p>OriginOS 5请<strong>关闭</strong>该选项，因为会导致快速撞温控墙导致性能受限</p>
 </div>
 <h4 id="_4-5-2-ai加速引擎" tabindex="-1"><a class="header-anchor" href="#_4-5-2-ai加速引擎"><span>4.5.2 AI加速引擎</span></a></h4>
@@ -103,8 +103,8 @@
 </div>
 <h4 id="_4-5-3-网络增强" tabindex="-1"><a class="header-anchor" href="#_4-5-3-网络增强"><span>4.5.3 网络增强</span></a></h4>
 <p>减少网络延迟，提升网络的稳定性</p>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p>会增加一些日用耗电。自行判断是否使用此功能</p>
 </div>
 <h4 id="_4-5-4-wifi满血加载" tabindex="-1"><a class="header-anchor" href="#_4-5-4-wifi满血加载"><span>4.5.4 WiFi满血加载</span></a></h4>
@@ -116,8 +116,8 @@
 提升网络的稳定性</p>
 <h4 id="_4-5-6-全局画质增强" tabindex="-1"><a class="header-anchor" href="#_4-5-6-全局画质增强"><span>4.5.6 全局画质增强</span></a></h4>
 <p>去除 低电量、省电模式下，因系统省电策略方案导致糊画质，降分辨率</p>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p>会增加一些耗电。自行判断是否使用此功能</p>
 </div>
 <h2 id="_5-备份与还原" tabindex="-1"><a class="header-anchor" href="#_5-备份与还原"><span>5. 备份与还原</span></a></h2>

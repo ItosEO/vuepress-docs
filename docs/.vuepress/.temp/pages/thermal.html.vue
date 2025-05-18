@@ -3,8 +3,8 @@
 <p>通过本手册，您将全面了解 vivo 温控引擎应用的功能和使用方法。</p>
 <h2 id="_1-简介" tabindex="-1"><a class="header-anchor" href="#_1-简介"><span>1. 简介</span></a></h2>
 <p>vivo 温控引擎是一款强大的工具，旨在帮助用户优化设备温控策略，提升游戏性能和日常使用体验。本手册将详细介绍其各项功能，助您轻松上手。</p>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p>软件是<strong>解决拉高温控上限，增加性能输出。</strong>
 <strong>不是</strong>和root一样100%完全可以解除温控的。</p>
 </div>
@@ -23,8 +23,8 @@
 <li>点击 <strong>登录</strong> 按钮。</li>
 <li>登录成功后，将自动弹出公告，请务必仔细阅读。</li>
 </ol>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p>请务必仔细阅读登录后的公告信息。</p>
 </div>
 <h3 id="_2-3-解绑设备" tabindex="-1"><a class="header-anchor" href="#_2-3-解绑设备"><span>2.3 解绑设备</span></a></h3>
@@ -34,8 +34,8 @@
 <li>售后降级后</li>
 <li>更换设备登录</li>
 </ul>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p><strong>解绑次数限制:</strong> 每张卡密只有 <strong>3 次</strong> 解绑机会，用完即止。请务必妥善保管您的卡密，切勿泄露，以防他人恶意解绑。</p>
 </div>
 <h2 id="_3-软件更新" tabindex="-1"><a class="header-anchor" href="#_3-软件更新"><span>3. 软件更新</span></a></h2>
@@ -59,8 +59,8 @@
 </ol>
 </div>
 <h4 id="_4-1-1-首次使用初始化操作" tabindex="-1"><a class="header-anchor" href="#_4-1-1-首次使用初始化操作"><span>4.1.1 首次使用初始化操作</span></a></h4>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p><strong>首次使用:</strong> 所有系统首次使用都请执行 <strong>OS4 (兼容老系统)</strong> 方案。按照软件提示完成操作后，<strong>务必重启手机</strong>。</p>
 </div>
 <h4 id="_4-1-2-正常使用操作" tabindex="-1"><a class="header-anchor" href="#_4-1-2-正常使用操作"><span>4.1.2 正常使用操作</span></a></h4>
@@ -68,8 +68,8 @@
 <li><strong>游戏前:</strong> 执行 <strong>OS4 (兼容老系统)</strong> 方案 (即最上面的按钮)。</li>
 <li><strong>进入游戏后:</strong> 通过游戏小窗启动本软件，执行 <strong>游戏模式</strong> (强烈推荐，见下方游戏模式说明)。</li>
 </ol>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p><strong>使用注意:</strong></p>
 <ul>
 <li><strong>每次进入游戏</strong> 都需要执行一遍 <strong>OS4 (兼容老系统)</strong> 方案。</li>
@@ -82,8 +82,8 @@
 <p>用于在游戏过程中解除锁帧。</p>
 <h4 id="_4-2-1-使用方法" tabindex="-1"><a class="header-anchor" href="#_4-2-1-使用方法"><span>4.2.1 使用方法</span></a></h4>
 <p>正常游戏时，当触发锁帧后，打开小窗 (本软件)，点击 <strong>解除锁帧</strong>，然后选择您的游戏帧率，即可尝试解决锁帧问题。您也可以在感觉快要锁帧时提前点击。</p>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p><strong>功能限制:</strong></p>
 <ul>
 <li>可能因系统覆盖配置而再次锁帧，目前暂无解决方案。</li>
@@ -121,8 +121,8 @@
 <p><strong>小太阳图标 ☀️</strong> 用于解决高温降亮度问题。</p>
 <h4 id="_4-5-1-使用方法" tabindex="-1"><a class="header-anchor" href="#_4-5-1-使用方法"><span>4.5.1 使用方法</span></a></h4>
 <p>在设备使用中发现亮度降低时，打开小窗 (本软件) 并点击 <strong>小太阳图标 ☀️</strong> 即可。</p>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p><strong>功能限制:</strong> 只能解决因高温触发的自动降亮度，<strong>不能将亮度恢复到手动最高或激发亮度!</strong></p>
 </div>
 <div class="hint-container tip">
@@ -144,8 +144,8 @@
 <p class="hint-container-title">注意</p>
 <p>此优化功能与 <strong>满血调度+</strong> 存在互斥。</p>
 </div>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p><strong>平台限制:</strong> <strong>D9400 和 8Elite 等新平台处理器不需要使用</strong> 此功能。</p>
 </div>
 <h4 id="_4-6-2-切换或停用平台优化" tabindex="-1"><a class="header-anchor" href="#_4-6-2-切换或停用平台优化"><span>4.6.2 切换或停用平台优化</span></a></h4>
@@ -160,8 +160,8 @@
 </ol>
 <h3 id="_4-7-超感触控" tabindex="-1"><a class="header-anchor" href="#_4-7-超感触控"><span>4.7 超感触控</span></a></h3>
 <p><strong>超感触控</strong> 功能为设备硬件支持超感触控但系统层面阉割的设备提供超感触控配置或为支持超感触控的系统，提供强制为不支持的游戏开启超感触控的能力。</p>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
 <p><strong>功能依赖:</strong> 该功能 <strong>依赖游戏魔盒</strong>。</p>
 </div>
 <h3 id="_4-8-触控参数优化" tabindex="-1"><a class="header-anchor" href="#_4-8-触控参数优化"><span>4.8 触控参数优化</span></a></h3>
