@@ -1,12 +1,12 @@
 <template><div><h1 id="vivo-温控引擎使用手册" tabindex="-1"><a class="header-anchor" href="#vivo-温控引擎使用手册"><span>vivo 温控引擎使用手册</span></a></h1>
-<p><strong>手册版本:</strong> Gelato</p>
+<p><strong>手册版本:</strong> Icecream</p>
 <p>通过本手册，您将全面了解 vivo 温控引擎应用的功能和使用方法。</p>
 <h2 id="_1-简介" tabindex="-1"><a class="header-anchor" href="#_1-简介"><span>1. 简介</span></a></h2>
 <p>vivo 温控引擎是一款强大的工具，旨在帮助用户优化设备温控策略，提升游戏性能和日常使用体验。本手册将详细介绍其各项功能，助您轻松上手。</p>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
 <p>软件是<strong>解决拉高温控上限，增加性能输出。</strong>
-<strong>不是</strong>和root一样100%完全可以解除温控的。</p>
+<strong>不是</strong>和Root一样100%完全可以解除温控的。</p>
 </div>
 <h2 id="_2-登录" tabindex="-1"><a class="header-anchor" href="#_2-登录"><span>2. 登录</span></a></h2>
 <h3 id="_2-1-登录页面元素" tabindex="-1"><a class="header-anchor" href="#_2-1-登录页面元素"><span>2.1 登录页面元素</span></a></h3>
@@ -133,9 +133,8 @@
 </ul>
 </div>
 <h3 id="_4-6-平台优化" tabindex="-1"><a class="header-anchor" href="#_4-6-平台优化"><span>4.6 平台优化</span></a></h3>
-<p><strong>平台优化</strong> 功能 (右上角的 Mediatek 或 Snapdragon 图标) 分别用于优化联发科机型或骁龙机型。</p>
 <h4 id="_4-6-1-使用方法" tabindex="-1"><a class="header-anchor" href="#_4-6-1-使用方法"><span>4.6.1 使用方法</span></a></h4>
-<p>点击对应的平台图标即可开始优化。一般情况下，后续不需要还原和再次优化。</p>
+<p>点击即可开始优化。一般情况下，后续不需要还原和再次优化。</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p><strong>实验性功能:</strong> 此功能为 <strong>实验性功能，不保证稳定性</strong>。如果 <strong>“去温控”</strong> 和 <strong>“游戏模式”</strong> 能够达到您的预期效果，则 <strong>不建议使用</strong> 此功能。</p>
@@ -164,22 +163,38 @@
 <p class="hint-container-title">相关信息</p>
 <p><strong>功能依赖:</strong> 该功能 <strong>依赖游戏魔盒</strong>。</p>
 </div>
-<h3 id="_4-8-触控参数优化" tabindex="-1"><a class="header-anchor" href="#_4-8-触控参数优化"><span>4.8 触控参数优化</span></a></h3>
-<p><strong>触控参数优化</strong> 功能，点击后可优化全局触摸响应，提升跟手度和顺滑感。</p>
+<h3 id="_4-8-触控-缓冲区优化" tabindex="-1"><a class="header-anchor" href="#_4-8-触控-缓冲区优化"><span>4.8 触控/缓冲区优化</span></a></h3>
+<p><strong>触控/缓冲区优化</strong> 功能，点击后可优化全局触摸响应和缓冲区配置，提升跟手度和顺滑感。</p>
 <h3 id="_4-9-满血调度" tabindex="-1"><a class="header-anchor" href="#_4-9-满血调度"><span>4.9 满血调度+</span></a></h3>
 <p><strong>满血调度+</strong> 旨在提升您的设备调度策略，让调度更激进</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>此优化功能与 <strong>平台优化</strong> 存在互斥。</p>
 </div>
-<h2 id="_5-右上角按钮说明" tabindex="-1"><a class="header-anchor" href="#_5-右上角按钮说明"><span>5. 右上角按钮说明</span></a></h2>
+<h2 id="_5-kpl调度" tabindex="-1"><a class="header-anchor" href="#_5-kpl调度"><span>5. KPL调度</span></a></h2>
+<p><strong>KPL调度</strong> 旨在进一步提高你的游戏体验</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>此功能与其他优化不冲突</p>
+</div>
+<h2 id="_6-小电流供电" tabindex="-1"><a class="header-anchor" href="#_6-小电流供电"><span>6. 小电流供电</span></a></h2>
+<p><strong>小电流供电</strong> 减缓充电速度</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>实验性功能，可能无效</p>
+</div>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>仅OS4、OS5可能支持</p>
+</div>
+<h2 id="_7-右上角按钮说明" tabindex="-1"><a class="header-anchor" href="#_7-右上角按钮说明"><span>7. 右上角按钮说明</span></a></h2>
 <p>功能页面右上角包含多个按钮，分别提供以下功能：</p>
 <ol>
 <li><strong>加群:</strong> 跳转至官方用户群。</li>
 <li><strong>打开此文档:</strong> 快速访问本使用手册。</li>
 <li><strong>游戏模式自定义配置 (齿轮图标):</strong> 打开游戏模式自定义配置菜单。</li>
 </ol>
-<h2 id="_6-常见问题-faq" tabindex="-1"><a class="header-anchor" href="#_6-常见问题-faq"><span>6. 常见问题 (FAQ)</span></a></h2>
+<h2 id="_8-常见问题-faq" tabindex="-1"><a class="header-anchor" href="#_8-常见问题-faq"><span>8. 常见问题 (FAQ)</span></a></h2>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>有关常见问题，请直接查阅 <RouteLink to="/faq.html">常见问题 (FAQ)</RouteLink>。</p>

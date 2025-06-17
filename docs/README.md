@@ -12,6 +12,9 @@ actions:
   - text: 网盘
     link: https://down.itostar.com.cn/PremiumApp
     type: secondary
+  - text: 开发计划
+    link: https://upd.itostar.com.cn/
+    type: secondary
 
 features:
   - title: 源码开发

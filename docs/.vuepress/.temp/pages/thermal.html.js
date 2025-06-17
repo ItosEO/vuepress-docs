@@ -1,16 +1,3 @@
 import comp from "/home/user/vuepress-docs/docs/.vuepress/.temp/pages/thermal.html.vue"
-const data = JSON.parse("{\"path\":\"/thermal.html\",\"title\":\"vivo温控引擎 使用手册\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"vivo温控引擎 使用手册\",\"next\":\"/pro.md\"},\"git\":{\"updatedTime\":1744815006000,\"contributors\":[{\"name\":\"maoyujie2\",\"username\":\"maoyujie2\",\"email\":\"maoyujie2@gmail.com\",\"commits\":3,\"url\":\"https://github.com/maoyujie2\"}],\"changelog\":[{\"hash\":\"dda58ef568569d2f4524f91a401a99ff43cefc79\",\"time\":1744815006000,\"email\":\"maoyujie2@gmail.com\",\"author\":\"maoyujie2\",\"message\":\"更新文档，加入底部导航\"},{\"hash\":\"46e6fad87c72614730a4456c6670af57a801024a\",\"time\":1744808731000,\"email\":\"maoyujie2@gmail.com\",\"author\":\"maoyujie2\",\"message\":\"更新文档\"},{\"hash\":\"6858a46eb847f323a480e989302c9519c137791c\",\"time\":1744713987000,\"email\":\"maoyujie2@gmail.com\",\"author\":\"maoyujie2\",\"message\":\"Frist\"}]},\"filePathRelative\":\"thermal.md\",\"excerpt\":\"\\n<p><strong>手册版本:</strong> Gelato</p>\\n<p>通过本手册，您将全面了解 vivo 温控引擎应用的功能和使用方法。</p>\\n<h2>1. 简介</h2>\\n<p>vivo 温控引擎是一款强大的工具，旨在帮助用户优化设备温控策略，提升游戏性能和日常使用体验。本手册将详细介绍其各项功能，助您轻松上手。</p>\\n<div class=\\\"hint-container info\\\">\\n<p class=\\\"hint-container-title\\\">相关信息</p>\\n<p>软件是<strong>解决拉高温控上限，增加性能输出。</strong>\\n<strong>不是</strong>和root一样100%完全可以解除温控的。</p>\\n</div>\"}")
+const data = JSON.parse("{\"path\":\"/thermal.html\",\"title\":\"vivo温控引擎 使用手册\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"vivo温控引擎 使用手册\",\"next\":\"/pro.md\"},\"git\":{\"updatedTime\":1747532566000,\"contributors\":[{\"name\":\"maoyujie2\",\"username\":\"maoyujie2\",\"email\":\"maoyujie2@gmail.com\",\"commits\":4,\"url\":\"https://github.com/maoyujie2\"}],\"changelog\":[{\"hash\":\"b94b22a743be842d601ebbee594e5383a52b3234\",\"time\":1747532566000,\"email\":\"maoyujie2@gmail.com\",\"author\":\"maoyujie2\",\"message\":\"更新\"},{\"hash\":\"dda58ef568569d2f4524f91a401a99ff43cefc79\",\"time\":1744815006000,\"email\":\"maoyujie2@gmail.com\",\"author\":\"maoyujie2\",\"message\":\"更新文档，加入底部导航\"},{\"hash\":\"46e6fad87c72614730a4456c6670af57a801024a\",\"time\":1744808731000,\"email\":\"maoyujie2@gmail.com\",\"author\":\"maoyujie2\",\"message\":\"更新文档\"},{\"hash\":\"6858a46eb847f323a480e989302c9519c137791c\",\"time\":1744713987000,\"email\":\"maoyujie2@gmail.com\",\"author\":\"maoyujie2\",\"message\":\"Frist\"}]},\"filePathRelative\":\"thermal.md\",\"excerpt\":\"\\n<p><strong>手册版本:</strong> Icecream</p>\\n<p>通过本手册，您将全面了解 vivo 温控引擎应用的功能和使用方法。</p>\\n<h2>1. 简介</h2>\\n<p>vivo 温控引擎是一款强大的工具，旨在帮助用户优化设备温控策略，提升游戏性能和日常使用体验。本手册将详细介绍其各项功能，助您轻松上手。</p>\\n<div class=\\\"hint-container info\\\">\\n<p class=\\\"hint-container-title\\\">相关信息</p>\\n<p>软件是<strong>解决拉高温控上限，增加性能输出。</strong>\\n<strong>不是</strong>和Root一样100%完全可以解除温控的。</p>\\n</div>\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
