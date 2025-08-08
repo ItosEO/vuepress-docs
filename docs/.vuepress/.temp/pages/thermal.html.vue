@@ -8,6 +8,10 @@
 <p>软件是<strong>解决拉高温控上限，增加性能输出。</strong>
 <strong>不是</strong>和Root一样100%完全可以解除温控的。</p>
 </div>
+<div class="hint-container caution">
+<p class="hint-container-title">警告</p>
+<p>请勿一股脑点完所有功能，出现问题概不负责</p>
+</div>
 <h2 id="_2-登录" tabindex="-1"><a class="header-anchor" href="#_2-登录"><span>2. 登录</span></a></h2>
 <h3 id="_2-1-登录页面元素" tabindex="-1"><a class="header-anchor" href="#_2-1-登录页面元素"><span>2.1 登录页面元素</span></a></h3>
 <p>登录页面包含以下元素：</p>
@@ -16,6 +20,7 @@
 <li><strong>登录按钮:</strong> 点击使用卡密登录。</li>
 <li><strong>解绑按钮:</strong> 跳转至解绑网页，用于解绑设备。</li>
 <li><strong>卡密输入框:</strong> 输入购买的卡密。</li>
+<li><strong>更换应用图标:</strong> 字面意思 (后续不会开放自定义)</li>
 </ul>
 <h3 id="_2-2-登录步骤" tabindex="-1"><a class="header-anchor" href="#_2-2-登录步骤"><span>2.2 登录步骤</span></a></h3>
 <ol>
@@ -58,30 +63,29 @@
 <li><strong>OS 4 或效果不佳:</strong> 请尝试 <strong>OS4 (兼容) 方案</strong>。</li>
 </ol>
 </div>
+<div class="hint-container note">
+<p class="hint-container-title">注</p>
+<p>OriginOS 5策略已并入游戏模式</p>
+</div>
 <h4 id="_4-1-1-首次使用初始化操作" tabindex="-1"><a class="header-anchor" href="#_4-1-1-首次使用初始化操作"><span>4.1.1 首次使用初始化操作</span></a></h4>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
 <p><strong>首次使用:</strong> 所有系统首次使用都请执行 <strong>OS4 (兼容老系统)</strong> 方案。按照软件提示完成操作后，<strong>务必重启手机</strong>。</p>
 </div>
-<h4 id="_4-1-2-正常使用操作" tabindex="-1"><a class="header-anchor" href="#_4-1-2-正常使用操作"><span>4.1.2 正常使用操作</span></a></h4>
-<ol>
-<li><strong>游戏前:</strong> 执行 <strong>OS4 (兼容老系统)</strong> 方案 (即最上面的按钮)。</li>
-<li><strong>进入游戏后:</strong> 通过游戏小窗启动本软件，执行 <strong>游戏模式</strong> (强烈推荐，见下方游戏模式说明)。</li>
-</ol>
-<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p><strong>使用注意:</strong></p>
-<ul>
-<li><strong>每次进入游戏</strong> 都需要执行一遍 <strong>OS4 (兼容老系统)</strong> 方案。</li>
-<li>如果效果不佳，可以尝试其他方案 (参考旧版教程)。</li>
-<li>执行 <strong>游戏模式</strong> 后，请尽量避免切换后台、使用小窗 (特定操作除外)，否则可能导致游戏模式/M+ 模式失效，需要重新进入游戏并重新执行。</li>
-<li>不玩游戏时，建议关闭 <strong>游戏模式</strong> 以减少电量消耗。</li>
-</ul>
+<div class="hint-container note">
+<p class="hint-container-title">注</p>
+<p>OS 5请忽视此条</p>
 </div>
-<h3 id="_4-2-若干按钮使用说明-解除锁帧-xxx" tabindex="-1"><a class="header-anchor" href="#_4-2-若干按钮使用说明-解除锁帧-xxx"><span>4.2 若干按钮使用说明 (解除锁帧 - XXX)</span></a></h3>
+<h3 id="_4-2-若干按钮使用说明-解除锁帧" tabindex="-1"><a class="header-anchor" href="#_4-2-若干按钮使用说明-解除锁帧"><span>4.2 若干按钮使用说明 (解除锁帧)</span></a></h3>
 <p>用于在游戏过程中解除锁帧。</p>
 <h4 id="_4-2-1-使用方法" tabindex="-1"><a class="header-anchor" href="#_4-2-1-使用方法"><span>4.2.1 使用方法</span></a></h4>
-<p>正常游戏时，当触发锁帧后，打开小窗 (本软件)，点击 <strong>解除锁帧</strong>，然后选择您的游戏帧率，即可尝试解决锁帧问题。您也可以在感觉快要锁帧时提前点击。</p>
+<ol>
+<li>旧版方案
+正常游戏时，当触发锁帧后，打开小窗 (本软件)，点击 <strong>解除锁帧</strong>，然后选择您的游戏帧率，即可尝试解决锁帧问题。您也可以在感觉快要锁帧时提前点击。</li>
+<li>新版方案
+进入游戏前执行 开启，游戏结束后执行 关闭
+或许能解决较新机型<strong>某大型多人在线FPS手游</strong>锁90帧</li>
+</ol>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
 <p><strong>功能限制:</strong></p>
@@ -91,20 +95,26 @@
 <li>若因温度过高导致 <strong>严重锁帧 (锁死)</strong>，必须配合 <strong>散热器 (如手机背夹)</strong> 使用。</li>
 </ul>
 </div>
+<p>:::warn
+新版方案可能导致触控不灵敏
+:::</p>
 <h3 id="_4-3-按钮使用说明-游戏模式" tabindex="-1"><a class="header-anchor" href="#_4-3-按钮使用说明-游戏模式"><span>4.3 按钮使用说明 (游戏模式)</span></a></h3>
 <p><strong>游戏模式</strong> 功能旨在进一步增强性能释放，优化去温控效果。支持自定义功能开关 (通过右上角齿轮设置)。</p>
 <h4 id="_4-3-1-功能开关-右上角齿轮设置" tabindex="-1"><a class="header-anchor" href="#_4-3-1-功能开关-右上角齿轮设置"><span>4.3.1 功能开关 (右上角齿轮设置)</span></a></h4>
-<p><strong>游戏模式开关：</strong></p>
+<p><strong>游戏模式开关 :</strong></p>
 <ul>
 <li><strong>伪装温度</strong></li>
 <li><strong>触控优化</strong></li>
 <li><strong>M+ (Monster+ 模式开关)</strong></li>
 <li><strong>极致性能释放</strong></li>
-<li><strong>游戏魔盒开关:</strong> (见右上角按钮说明)</li>
 </ul>
+<p><strong>游戏模式用法 :</strong>
+进入游戏，小窗打开本软件点击<strong>开启游戏模式</strong></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p><strong>游戏模式</strong> 可单独使用，<strong>请在进入游戏后</strong>，通过游戏小窗启动本软件来执行。</p>
+<p><strong>游戏模式</strong> 可单独使用，<strong>请在进入游戏后</strong>，通过游戏小窗启动本软件来执行。
+执行 <strong>游戏模式</strong> 后，请尽量避免切换后台、使用小窗 (特定操作除外)，否则可能导致游戏模式/M+ 模式失效，需要重新进入游戏并重新执行。
+不玩游戏时，建议关闭 <strong>游戏模式</strong> 以减少电量消耗。</p>
 </div>
 <h3 id="_4-4-温度计图标-🌡️" tabindex="-1"><a class="header-anchor" href="#_4-4-温度计图标-🌡️"><span>4.4 温度计图标 🌡️</span></a></h3>
 <p><strong>温度计图标 🌡️</strong> 功能用于尝试优化去温控效果，<strong>必须搭配</strong> 上方的 <strong>“开始解除 - XXX”</strong> 去温控功能使用。</p>
@@ -117,10 +127,10 @@
 <li><strong>注意:</strong> <strong>ROOT用户</strong>请勿连续点击，否则可能导致应用卡死。</li>
 </ul>
 </div>
-<h3 id="_4-5-小太阳图标-☀️" tabindex="-1"><a class="header-anchor" href="#_4-5-小太阳图标-☀️"><span>4.5 小太阳图标 ☀️</span></a></h3>
-<p><strong>小太阳图标 ☀️</strong> 用于解决高温降亮度问题。</p>
+<h3 id="_4-5-解决降亮度" tabindex="-1"><a class="header-anchor" href="#_4-5-解决降亮度"><span>4.5 解决降亮度</span></a></h3>
+<p>用于解决高温降亮度问题。</p>
 <h4 id="_4-5-1-使用方法" tabindex="-1"><a class="header-anchor" href="#_4-5-1-使用方法"><span>4.5.1 使用方法</span></a></h4>
-<p>在设备使用中发现亮度降低时，打开小窗 (本软件) 并点击 <strong>小太阳图标 ☀️</strong> 即可。</p>
+<p>在设备使用中发现亮度降低时，打开小窗 (本软件) 并点击 <strong>解决降亮度</strong> 即可。</p>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
 <p><strong>功能限制:</strong> 只能解决因高温触发的自动降亮度，<strong>不能将亮度恢复到手动最高或激发亮度!</strong></p>
@@ -132,7 +142,7 @@
 <li>对于无法冻结的高版本系统，此功能也有助于延缓高温下自动降低亮度的问题。</li>
 </ul>
 </div>
-<h3 id="_4-6-平台优化" tabindex="-1"><a class="header-anchor" href="#_4-6-平台优化"><span>4.6 平台优化</span></a></h3>
+<h3 id="_4-6-平台优化-骁龙优化、天玑优化" tabindex="-1"><a class="header-anchor" href="#_4-6-平台优化-骁龙优化、天玑优化"><span>4.6 平台优化（骁龙优化、天玑优化）</span></a></h3>
 <h4 id="_4-6-1-使用方法" tabindex="-1"><a class="header-anchor" href="#_4-6-1-使用方法"><span>4.6.1 使用方法</span></a></h4>
 <p>点击即可开始优化。一般情况下，后续不需要还原和再次优化。</p>
 <div class="hint-container warning">
@@ -172,13 +182,18 @@
 <p>此优化功能与 <strong>平台优化</strong> 存在互斥。</p>
 </div>
 <h2 id="_5-kpl调度" tabindex="-1"><a class="header-anchor" href="#_5-kpl调度"><span>5. KPL调度</span></a></h2>
-<p><strong>KPL调度</strong> 旨在进一步提高你的游戏体验</p>
+<p><strong>KPL调度</strong> 旨在进一步提高你的游戏体验，优化性能释放</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>玩完游戏务必关闭！！！</p>
+</div>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
-<p>此功能与其他优化不冲突</p>
+<p>此功能与其他优化不冲突
+使用此功能不能冻结、卸载GameWacth组件</p>
 </div>
-<h2 id="_6-小电流供电" tabindex="-1"><a class="header-anchor" href="#_6-小电流供电"><span>6. 小电流供电</span></a></h2>
-<p><strong>小电流供电</strong> 减缓充电速度</p>
+<h2 id="_6-更多功能-小电流供电" tabindex="-1"><a class="header-anchor" href="#_6-更多功能-小电流供电"><span>6. 更多功能-小电流供电</span></a></h2>
+<p><strong>小电流供电</strong> 减缓充电速度，降低设备发热</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>实验性功能，可能无效</p>
@@ -193,6 +208,7 @@
 <li><strong>加群:</strong> 跳转至官方用户群。</li>
 <li><strong>打开此文档:</strong> 快速访问本使用手册。</li>
 <li><strong>游戏模式自定义配置 (齿轮图标):</strong> 打开游戏模式自定义配置菜单。</li>
+<li><strong>一键优化 (金色箭头)</strong> 为小白提供的一键策略，不一定最好，建议还是自己尝试，找出最适合自己的搭配</li>
 </ol>
 <h2 id="_8-常见问题-faq" tabindex="-1"><a class="header-anchor" href="#_8-常见问题-faq"><span>8. 常见问题 (FAQ)</span></a></h2>
 <div class="hint-container tip">

@@ -15,6 +15,9 @@ actions:
   - text: 开发计划
     link: https://upd.itostar.com.cn/
     type: secondary
+  - text: 用户协议
+    link: https://resource.itostar.com.cn/userpolicy/
+    type: secondary
 
 features:
   - title: 源码开发
