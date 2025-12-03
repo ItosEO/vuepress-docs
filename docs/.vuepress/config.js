@@ -9,7 +9,7 @@ export default defineUserConfig({
     lang: 'zh-CN',
 
     title: '使用手册',
-    description: 'vivo温控引擎 & 系统优化Pro',
+    description: 'vivo性能引擎 & 系统优化Pro',
 
     theme: defaultTheme({
         logo: 'https://vuejs.press/images/hero.png',

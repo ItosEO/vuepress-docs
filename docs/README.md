@@ -9,11 +9,11 @@ actions:
   - text: 获取卡密
     link: https://fk.qkrxr.cn/shop/itostar
     type: secondary
-  - text: 网盘
+  - text: 网盘&下载
     link: https://down.itostar.com.cn/PremiumApp
     type: secondary
-  - text: 开发计划
-    link: https://upd.itostar.com.cn/
+  - text: 解绑
+    link: https://resource.itostar.com.cn/public/Unbinding.html
     type: secondary
   - text: 用户协议
     link: https://resource.itostar.com.cn/userpolicy/
@@ -34,7 +34,7 @@ features:
     details: 改善网络连接稳定性，降低游戏延迟，提升浏览速度。
 
 
-footer: Copyright © 2022-2025 ItosEO 版权所有
+footer: Copyright © 2022-2026 ItosEO 版权所有
 ---
 
 

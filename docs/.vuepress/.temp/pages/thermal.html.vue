@@ -1,12 +1,11 @@
-<template><div><h1 id="vivo-温控引擎使用手册" tabindex="-1"><a class="header-anchor" href="#vivo-温控引擎使用手册"><span>vivo 温控引擎使用手册</span></a></h1>
-<p><strong>手册版本:</strong> Icecream</p>
-<p>通过本手册，您将全面了解 vivo 温控引擎应用的功能和使用方法。</p>
+<template><div><h1 id="vivo-性能引擎使用手册" tabindex="-1"><a class="header-anchor" href="#vivo-性能引擎使用手册"><span>vivo 性能引擎使用手册</span></a></h1>
+<p><strong>手册版本:</strong> Pro-19</p>
+<p>通过本手册，您将全面了解 vivo 性能引擎应用的功能和使用方法。</p>
 <h2 id="_1-简介" tabindex="-1"><a class="header-anchor" href="#_1-简介"><span>1. 简介</span></a></h2>
-<p>vivo 温控引擎是一款强大的工具，旨在帮助用户优化设备温控策略，提升游戏性能和日常使用体验。本手册将详细介绍其各项功能，助您轻松上手。</p>
+<p>vivo 性能引擎是一款强大的工具，旨在帮助用户优化设备性能策略，提升游戏性能和日常使用体验。本手册将详细介绍其各项功能，助您轻松上手。</p>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
-<p>软件是<strong>解决拉高温控上限，增加性能输出。</strong>
-<strong>不是</strong>和Root一样100%完全可以解除温控的。</p>
+<p>软件是<strong>解决降亮度、LTPO，增加性能输出。</strong></p>
 </div>
 <div class="hint-container caution">
 <p class="hint-container-title">警告</p>
@@ -16,15 +15,14 @@
 <h3 id="_2-1-登录页面元素" tabindex="-1"><a class="header-anchor" href="#_2-1-登录页面元素"><span>2.1 登录页面元素</span></a></h3>
 <p>登录页面包含以下元素：</p>
 <ul>
-<li><strong>下拉菜单 (线路选择):</strong> 用于线路选择。通常无需修改，除非登录无响应时尝试切换。</li>
+<li><strong>钥匙按钮:</strong> 长按用于线路选择。通常无需修改，除非登录无响应时尝试切换。</li>
 <li><strong>登录按钮:</strong> 点击使用卡密登录。</li>
 <li><strong>解绑按钮:</strong> 跳转至解绑网页，用于解绑设备。</li>
-<li><strong>卡密输入框:</strong> 输入购买的卡密。</li>
 <li><strong>更换应用图标:</strong> 字面意思 (后续不会开放自定义)</li>
 </ul>
 <h3 id="_2-2-登录步骤" tabindex="-1"><a class="header-anchor" href="#_2-2-登录步骤"><span>2.2 登录步骤</span></a></h3>
 <ol>
-<li>在卡密输入框中输入您的卡密 (请先 <strong><a href="https://fk.qkrxr.cn/shop/itostar" target="_blank" rel="noopener noreferrer">购买卡密</a></strong>)。</li>
+<li>在卡密输入框中输入您的卡密 (请先 <strong><a href="https://www.trfaka.com/shop/itostar" target="_blank" rel="noopener noreferrer">购买卡密</a></strong>)。</li>
 <li>点击 <strong>登录</strong> 按钮。</li>
 <li>登录成功后，将自动弹出公告，请务必仔细阅读。</li>
 </ol>
@@ -50,7 +48,7 @@
 <p>请 <strong>不要卸载旧版本</strong>，直接覆盖安装即可，以免卡密丢失。</p>
 </div>
 <h2 id="_4-功能使用方法" tabindex="-1"><a class="header-anchor" href="#_4-功能使用方法"><span>4. 功能使用方法</span></a></h2>
-<p>登录成功后，您将进入功能页面。功能页面包含多个按钮、温度计图标 🌡️ 和太阳图标 ☀️ (位于左上角)。</p>
+<p>登录成功后，您将进入功能页面。功能页面包含多个按钮</p>
 <h3 id="_4-1-若干按钮使用说明-开始解除-xxx-方案" tabindex="-1"><a class="header-anchor" href="#_4-1-若干按钮使用说明-开始解除-xxx-方案"><span>4.1 若干按钮使用说明 (开始解除 - XXX 方案)</span></a></h3>
 <p>这些按钮是软件的核心功能，用于免 Root 解除温控。请根据您的设备和系统版本选择合适的方案：</p>
 <div class="hint-container tip">
@@ -63,72 +61,61 @@
 <li><strong>OS 4 或效果不佳:</strong> 请尝试 <strong>OS4 (兼容) 方案</strong>。</li>
 </ol>
 </div>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
-<p>OriginOS 5策略已并入游戏模式</p>
-</div>
-<h4 id="_4-1-1-首次使用初始化操作" tabindex="-1"><a class="header-anchor" href="#_4-1-1-首次使用初始化操作"><span>4.1.1 首次使用初始化操作</span></a></h4>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
-<p><strong>首次使用:</strong> 所有系统首次使用都请执行 <strong>OS4 (兼容老系统)</strong> 方案。按照软件提示完成操作后，<strong>务必重启手机</strong>。</p>
+<p>该功能仅低版本系统可用，新版本已合并至游戏模式</p>
 </div>
-<div class="hint-container note">
-<p class="hint-container-title">注</p>
-<p>OS 5请忽视此条</p>
+<h3 id="_4-2-若干按钮使用说明-固定帧率" tabindex="-1"><a class="header-anchor" href="#_4-2-若干按钮使用说明-固定帧率"><span>4.2 若干按钮使用说明 (固定帧率)</span></a></h3>
+<p>用于屏蔽LTPO和动态刷新率，持续高刷，更流畅
+还可以缓解锁帧</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>全网独家适配 OS6</p>
 </div>
-<h3 id="_4-2-若干按钮使用说明-解除锁帧" tabindex="-1"><a class="header-anchor" href="#_4-2-若干按钮使用说明-解除锁帧"><span>4.2 若干按钮使用说明 (解除锁帧)</span></a></h3>
-<p>用于在游戏过程中解除锁帧。</p>
 <h4 id="_4-2-1-使用方法" tabindex="-1"><a class="header-anchor" href="#_4-2-1-使用方法"><span>4.2.1 使用方法</span></a></h4>
 <ol>
-<li>旧版方案
-正常游戏时，当触发锁帧后，打开小窗 (本软件)，点击 <strong>解除锁帧</strong>，然后选择您的游戏帧率，即可尝试解决锁帧问题。您也可以在感觉快要锁帧时提前点击。</li>
-<li>新版方案
+<li>固定帧率
+选择你要固定的帧率
+使用底部一键关闭来取消固定</li>
+<li>缓解锁帧
 进入游戏前执行 开启，游戏结束后执行 关闭
 或许能解决较新机型<strong>某大型多人在线FPS手游</strong>锁90帧</li>
 </ol>
-<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p><strong>功能限制:</strong></p>
-<ul>
-<li>可能因系统覆盖配置而再次锁帧，目前暂无解决方案。</li>
-<li>并非所有锁帧情况都有效，属于正常现象，并非软件问题。</li>
-<li>若因温度过高导致 <strong>严重锁帧 (锁死)</strong>，必须配合 <strong>散热器 (如手机背夹)</strong> 使用。</li>
-</ul>
-</div>
 <p>:::warn
 新版方案可能导致触控不灵敏
 :::</p>
 <h3 id="_4-3-按钮使用说明-游戏模式" tabindex="-1"><a class="header-anchor" href="#_4-3-按钮使用说明-游戏模式"><span>4.3 按钮使用说明 (游戏模式)</span></a></h3>
-<p><strong>游戏模式</strong> 功能旨在进一步增强性能释放，优化去温控效果。支持自定义功能开关 (通过右上角齿轮设置)。</p>
+<p>旨在进一步增强性能释放，优化软件效果。且对小白友好，一键式操作</p>
+<p>建议使用均衡或极致模式，一键小白操作!</p>
+<p>::: warn
+非必要不使用自定义模式
+:::</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p><strong>游戏模式</strong> 可单独使用，<strong>请在进入游戏后</strong>，通过游戏小窗启动本软件来执行。
+执行 <strong>游戏模式</strong> 后，请尽量避免切换后台、使用小窗 (特定操作除外)，否则可能导致游戏模式模式失效，需要重新进入游戏并重新执行。
+不玩游戏时，建议关闭 <strong>游戏模式</strong> 以减少电量消耗。</p>
+</div>
 <h4 id="_4-3-1-功能开关-右上角齿轮设置" tabindex="-1"><a class="header-anchor" href="#_4-3-1-功能开关-右上角齿轮设置"><span>4.3.1 功能开关 (右上角齿轮设置)</span></a></h4>
-<p><strong>游戏模式开关 :</strong></p>
 <ul>
-<li><strong>伪装温度</strong></li>
 <li><strong>触控优化</strong></li>
 <li><strong>M+ (Monster+ 模式开关)</strong></li>
 <li><strong>极致性能释放</strong></li>
 </ul>
-<p><strong>游戏模式用法 :</strong>
-进入游戏，小窗打开本软件点击<strong>开启游戏模式</strong></p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p><strong>游戏模式</strong> 可单独使用，<strong>请在进入游戏后</strong>，通过游戏小窗启动本软件来执行。
-执行 <strong>游戏模式</strong> 后，请尽量避免切换后台、使用小窗 (特定操作除外)，否则可能导致游戏模式/M+ 模式失效，需要重新进入游戏并重新执行。
-不玩游戏时，建议关闭 <strong>游戏模式</strong> 以减少电量消耗。</p>
-</div>
 <h3 id="_4-4-温度计图标-🌡️" tabindex="-1"><a class="header-anchor" href="#_4-4-温度计图标-🌡️"><span>4.4 温度计图标 🌡️</span></a></h3>
-<p><strong>温度计图标 🌡️</strong> 功能用于尝试优化去温控效果，<strong>必须搭配</strong> 上方的 <strong>“开始解除 - XXX”</strong> 去温控功能使用。</p>
+<p><strong>温度计图标 🌡️</strong> 功能用于尝试优化软件效果，<strong>必须搭配</strong> 上方的 <strong>“开始解除 - XXX”</strong> 去温控功能使用。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p><strong>使用说明:</strong></p>
 <ul>
 <li><strong>OriginOS 4.0 及以上系统</strong> 无需使用此功能</li>
 <li><strong>Root 权限用户</strong> (点击<strong>一次</strong>即可，重启需再次点击)。</li>
-<li><strong>注意:</strong> <strong>ROOT用户</strong>请勿连续点击，否则可能导致应用卡死。</li>
+<li><strong>注意:</strong> <strong>ROOT用户</strong>请勿连续点击，否则可能导致系统卡死。</li>
 </ul>
 </div>
 <h3 id="_4-5-解决降亮度" tabindex="-1"><a class="header-anchor" href="#_4-5-解决降亮度"><span>4.5 解决降亮度</span></a></h3>
-<p>用于解决高温降亮度问题。</p>
+<p>用于解决高温降亮度问题。
+<strong>100%</strong> 解决，支持全版本系统</p>
 <h4 id="_4-5-1-使用方法" tabindex="-1"><a class="header-anchor" href="#_4-5-1-使用方法"><span>4.5.1 使用方法</span></a></h4>
 <p>在设备使用中发现亮度降低时，打开小窗 (本软件) 并点击 <strong>解决降亮度</strong> 即可。</p>
 <div class="hint-container info">
@@ -140,6 +127,7 @@
 <ul>
 <li>在较低版本的 OriginOS 系统上，配合 <strong>“冻结” i 管家 及 i 管家插件</strong> 使用此功能，效果可能更佳。</li>
 <li>对于无法冻结的高版本系统，此功能也有助于延缓高温下自动降低亮度的问题。</li>
+<li>可在开机时启动循环，畅享不降亮度</li>
 </ul>
 </div>
 <h3 id="_4-6-平台优化-骁龙优化、天玑优化" tabindex="-1"><a class="header-anchor" href="#_4-6-平台优化-骁龙优化、天玑优化"><span>4.6 平台优化（骁龙优化、天玑优化）</span></a></h3>
@@ -173,8 +161,8 @@
 <p class="hint-container-title">相关信息</p>
 <p><strong>功能依赖:</strong> 该功能 <strong>依赖游戏魔盒</strong>。</p>
 </div>
-<h3 id="_4-8-触控-缓冲区优化" tabindex="-1"><a class="header-anchor" href="#_4-8-触控-缓冲区优化"><span>4.8 触控/缓冲区优化</span></a></h3>
-<p><strong>触控/缓冲区优化</strong> 功能，点击后可优化全局触摸响应和缓冲区配置，提升跟手度和顺滑感。</p>
+<h3 id="_4-8-触控优化" tabindex="-1"><a class="header-anchor" href="#_4-8-触控优化"><span>4.8 触控优化</span></a></h3>
+<p><strong>触控优化</strong> 功能，点击后可优化全局触摸响应和缓冲区配置，提升跟手度和顺滑感。</p>
 <h3 id="_4-9-满血调度" tabindex="-1"><a class="header-anchor" href="#_4-9-满血调度"><span>4.9 满血调度+</span></a></h3>
 <p><strong>满血调度+</strong> 旨在提升您的设备调度策略，让调度更激进</p>
 <div class="hint-container warning">
@@ -182,17 +170,24 @@
 <p>此优化功能与 <strong>平台优化</strong> 存在互斥。</p>
 </div>
 <h2 id="_5-kpl调度" tabindex="-1"><a class="header-anchor" href="#_5-kpl调度"><span>5. KPL调度</span></a></h2>
-<p><strong>KPL调度</strong> 旨在进一步提高你的游戏体验，优化性能释放</p>
+<p><strong>KPL调度</strong> 旨在进一步提高你的游戏体验，优化性能释放
+可以设置循环，防止系统覆盖部分配置</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>玩完游戏务必关闭！！！</p>
+<p>游戏完务必关闭！！！</p>
 </div>
 <div class="hint-container info">
 <p class="hint-container-title">相关信息</p>
 <p>此功能与其他优化不冲突
 使用此功能不能冻结、卸载GameWacth组件</p>
 </div>
-<h2 id="_6-更多功能-小电流供电" tabindex="-1"><a class="header-anchor" href="#_6-更多功能-小电流供电"><span>6. 更多功能-小电流供电</span></a></h2>
+<h2 id="_6-配置angle" tabindex="-1"><a class="header-anchor" href="#_6-配置angle"><span>6. 配置ANGLE</span></a></h2>
+<p>该功能用于配置Android 15+的OpenGL转译配置</p>
+<p>::: warn
+如果你不懂这是什么，别用！
+使用该功能后不要打开开发者选项的配置页面，会导致配置被覆盖
+:::</p>
+<h2 id="_7-更多功能" tabindex="-1"><a class="header-anchor" href="#_7-更多功能"><span>7. 更多功能</span></a></h2>
 <p><strong>小电流供电</strong> 减缓充电速度，降低设备发热</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
@@ -202,13 +197,17 @@
 <p class="hint-container-title">相关信息</p>
 <p>仅OS4、OS5可能支持</p>
 </div>
+<p><strong>全局Vulkan</strong> 配置全局Vulkan，理论更省电、性能表现更好</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>VulkanAPI版本 &lt; 1.3不建议使用</p>
+</div>
 <h2 id="_7-右上角按钮说明" tabindex="-1"><a class="header-anchor" href="#_7-右上角按钮说明"><span>7. 右上角按钮说明</span></a></h2>
 <p>功能页面右上角包含多个按钮，分别提供以下功能：</p>
 <ol>
 <li><strong>加群:</strong> 跳转至官方用户群。</li>
 <li><strong>打开此文档:</strong> 快速访问本使用手册。</li>
 <li><strong>游戏模式自定义配置 (齿轮图标):</strong> 打开游戏模式自定义配置菜单。</li>
-<li><strong>一键优化 (金色箭头)</strong> 为小白提供的一键策略，不一定最好，建议还是自己尝试，找出最适合自己的搭配</li>
 </ol>
 <h2 id="_8-常见问题-faq" tabindex="-1"><a class="header-anchor" href="#_8-常见问题-faq"><span>8. 常见问题 (FAQ)</span></a></h2>
 <div class="hint-container tip">
@@ -216,8 +215,8 @@
 <p>有关常见问题，请直接查阅 <RouteLink to="/faq.html">常见问题 (FAQ)</RouteLink>。</p>
 </div>
 <hr>
-<p><a href="https://fk.qkrxr.cn/shop/itostar" target="_blank" rel="noopener noreferrer">购买卡密</a></p>
-<p><strong>版权所有 © 2022-2025</strong></p>
+<p><a href="https://www.trfaka.com/shop/itostar" target="_blank" rel="noopener noreferrer">购买卡密</a></p>
+<p><strong>版权所有 © 2022-2026</strong></p>
 <p><strong>如有侵权行为，请联系开发者:</strong></p>
 <ul>
 <li><strong>酷安: ItosEO</strong></li>
