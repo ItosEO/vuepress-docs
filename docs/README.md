@@ -7,7 +7,7 @@ actions:
     link: /thermal.html  # <--- 修改这里，指向目录或省略 .md
     type: primary
   - text: 获取卡密
-    link: https://fk.qkrxr.cn/shop/itostar
+    link: https://www.trfaka.com/shop/itostar
     type: secondary
   - text: 网盘&下载
     link: https://down.itostar.com.cn/PremiumApp

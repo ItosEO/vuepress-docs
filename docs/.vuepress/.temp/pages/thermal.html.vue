@@ -87,9 +87,10 @@
 <h3 id="_4-3-按钮使用说明-游戏模式" tabindex="-1"><a class="header-anchor" href="#_4-3-按钮使用说明-游戏模式"><span>4.3 按钮使用说明 (游戏模式)</span></a></h3>
 <p>旨在进一步增强性能释放，优化软件效果。且对小白友好，一键式操作</p>
 <p>建议使用均衡或极致模式，一键小白操作!</p>
-<p>::: warn
-非必要不使用自定义模式
-:::</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>非必要不使用自定义模式</p>
+</div>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p><strong>游戏模式</strong> 可单独使用，<strong>请在进入游戏后</strong>，通过游戏小窗启动本软件来执行。
@@ -183,10 +184,11 @@
 </div>
 <h2 id="_6-配置angle" tabindex="-1"><a class="header-anchor" href="#_6-配置angle"><span>6. 配置ANGLE</span></a></h2>
 <p>该功能用于配置Android 15+的OpenGL转译配置</p>
-<p>::: warn
-如果你不懂这是什么，别用！
-使用该功能后不要打开开发者选项的配置页面，会导致配置被覆盖
-:::</p>
+<div class="hint-container caution">
+<p class="hint-container-title">警告</p>
+<p>如果你不懂这是什么，别用！
+使用该功能后不要打开开发者选项的配置页面，会导致配置被覆盖</p>
+</div>
 <h2 id="_7-更多功能" tabindex="-1"><a class="header-anchor" href="#_7-更多功能"><span>7. 更多功能</span></a></h2>
 <p><strong>小电流供电</strong> 减缓充电速度，降低设备发热</p>
 <div class="hint-container warning">
