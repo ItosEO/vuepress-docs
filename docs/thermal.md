@@ -34,7 +34,7 @@ vivo 性能引擎是一款强大的工具，旨在帮助用户优化设备性能
 
 ### 2.2 登录步骤
 
-1.  在卡密输入框中输入您的卡密 (请先 **[购买卡密](https://www.trfaka.com/shop/itostar)**)。
+1.  在卡密输入框中输入您的卡密 (请先 **[购买卡密](https://shop.itostar.com.cn/buy)**)。
 2.  点击 **登录** 按钮。
 3.  登录成功后，将自动弹出公告，请务必仔细阅读。
 
@@ -279,7 +279,7 @@ VulkanAPI版本 < 1.3不建议使用
 
 ---
 
-[购买卡密](https://www.trfaka.com/shop/itostar)
+[购买卡密](https://shop.itostar.com.cn/buy)
 
 **版权所有 © 2022-2026**
 

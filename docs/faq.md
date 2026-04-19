@@ -124,7 +124,7 @@ A：进入网盘，打开备份还原默认数据文件夹，下载对应的默�
 
 ---
 
-[购买卡密](https://www.trfaka.com/shop/itostar)
+[购买卡密](https://shop.itostar.com.cn/buy)
 
 **版权所有 © 2022-2026**
 
